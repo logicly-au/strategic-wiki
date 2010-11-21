@@ -11,7 +11,7 @@ our $VERSION = '0.01';
 
 =head1 NAME
 
-Strategic::Wiki - Git and Plack based, lightweight wiki
+Strategic::Wiki - Turn Any Directory into a Lightweight Wiki
 
 =head1 SYNOPSIS
 
