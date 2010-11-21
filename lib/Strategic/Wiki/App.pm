@@ -5,7 +5,7 @@ use YAML::XS;
 use Try::Tiny;
 use Class::Throwable qw(Error);
 use Strategic::Wiki::Config;
-use XXX;
+# use XXX;
 
 has config => (
     is => 'ro',

@@ -3,7 +3,7 @@ use Mouse;
 use Try::Tiny;
 use Class::Throwable qw(Error);
 use Strategic::Wiki::App;
-use XXX;
+# use XXX;
 
 has 'app' => (is => 'ro', builder => sub {Strategic::Wiki::App->new});
 has 'action' => (is => 'ro');
@@ -62,7 +62,7 @@ sub handle_up {
     }
     catch {
         chomp;
-        XXX $_;
+#         XXX $_;
         throw Error "up failed.\n$_\n";
     };
 }
@@ -103,8 +103,8 @@ sub _parse_args {
         $args->{action} = 'help';
     }
     else {
-        use XXX;
-        XXX @_;
+#         use XXX;
+#         XXX @_;
     }
     return $args;
 }
