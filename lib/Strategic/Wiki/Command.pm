@@ -76,7 +76,7 @@ Commands:
     init - Make current directory into a Strategic Wiki
     make - Bring the wiki up to date
     up   - Start up a local wiki server
-    down - Stop the server
+    down - Stop the wiki server
 
 See:
     `perldoc strategic-wiki` - Documentation on this command.
